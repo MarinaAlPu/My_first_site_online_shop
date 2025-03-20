@@ -219,18 +219,18 @@ header {
 }
 
 .product:hover .product__photo-icons {
-    width: 69px;
-    height: 24px;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    gap: 21px;
-    position: absolute;
-    top: 10px;
-    // left: 300px;
-    right: 10px;
-    transition: all 0.5s linear;
+  width: 69px;
+  height: 24px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 21px;
+  position: absolute;
+  top: 10px;
+  // left: 300px;
+  right: 10px;
+  transition: all 0.5s linear;
 }
 
 .product__photo {
@@ -415,6 +415,10 @@ header {
   height: 40px;
   padding-left: 17px;
   padding-right: 17px;
+
+  &::placeholder {
+    color: #C4C4C4;
+  }
 }
 
 .subscribe-form__button {
