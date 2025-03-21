@@ -19,7 +19,65 @@
       <nav class="header__nav">
         <ul class="header__list">
           <li><a class="header__link" href="catalog.html">Каталог</a></li>
-          <li><a class="header__link" href="cart.html">Корзина</a></li>
+          <li><a class="header__link header__link_cart" href="cart.html">Корзина</a>
+            <div class="header__modal-cart">
+              <div class="modal-cart__item-box">
+                <div class="modal-cart__item">
+                  <div class="modal-cart__left">
+                    <img class="modal-cart__img" src="./images/cart/menu.jpg" alt="Стол MENU">
+                    <div class="modal-cart__product">
+                      <div class="modal-cart__info">
+                        <h4 class="modal-cart__name">Стол MENU</h4>
+                        <p class="modal-cart__price">34 000 руб.</p>
+                      </div>
+                      <div class="modal-cart__link-box">
+                        <a class="modal-cart__link" href="#">Избранные</a>
+                        <a class="modal-cart__link" href="#">Удалить</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="modal-cart__quantity-box">
+                    <input class="modal-cart__quantity" type="number" value="1" min="1">
+                    <div class="modal-cart__arrows">
+                      <img class="modal-cart__arrows-up" src="./images/arrow_up.svg" alt="Увеличить">
+                      <img class="modal-cart__arrows-down" src="./images/arrow_down.svg" alt="Уменьшить">
+                    </div>
+                  </div>
+                </div>
+                <div class="modal-cart__item">
+                  <div class="modal-cart__left">
+                    <img class="modal-cart__img" src="./images/cart/nastan.jpg" alt="Диван NASTAN">
+                    <div class="modal-cart__product">
+                      <div class="modal-cart__info">
+                        <h4 class="modal-cart__name">Диван NASTAN</h4>
+                        <p class="modal-cart__price">80 000 руб.</p>
+                      </div>
+                      <div class="modal-cart__link-box">
+                        <a class="modal-cart__link" href="#">Избранные</a>
+                        <a class="modal-cart__link" href="#">Удалить</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="modal-cart__quantity-box">
+                    <input class="modal-cart__quantity" type="number" value="1" min="1">
+                    <div class="modal-cart__arrows">
+                      <img class="modal-cart__arrows-up" src="./images/arrow_up.svg" alt="Увеличить">
+                      <img class="modal-cart__arrows-down" src="./images/arrow_down.svg" alt="Уменьшить">
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="modal-cart__bottom-panel">
+                <div class="modal-cart__total">
+                  <p class="modal-cart__result modal-cart__result_title">Итого:
+                    <span class="modal-cart__result modal-cart__result_amount">128 000 руб.</span>
+                  </p>
+                </div>
+                <button class="modal-cart__button modal-cart__button_order">Оформить заказа<a
+                    href="cart.html"></a></button>
+              </div>
+            </div>
+          </li>
         </ul>
       </nav>
     </div>
