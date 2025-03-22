@@ -113,13 +113,20 @@
     padding-bottom: 32px;
 
     &__content {
+      display: flex;
       width: 100%;
       justify-content: space-between;
       gap: 69px;
+      flex-direction: column;
+      align-items: center;
     }
 
     &__info {
+      width: 100%;
+      display: flex;
       gap: 100px;
+      flex-direction: row;
+      justify-content: flex-start;
     }
   }
 
@@ -241,6 +248,7 @@
     &__button {
       width: 164px;
       font-size: 12px;
+
       &_continue-shopping {
         padding: 11px 6px;
       }
