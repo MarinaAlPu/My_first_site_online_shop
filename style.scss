@@ -115,8 +115,7 @@ ul.header__list li:last-child {
 }
 
 .header__modal-cart {
-  // display: none;
-  // visibility: hidden;
+  display: none;
   position: absolute;
   right: 0;
   // top: 18px;
@@ -298,12 +297,16 @@ ul.header__list li:last-child {
 
 .header__link_cart:hover+.header__modal-cart {
   display: block;
-  // visibility: visible;
 }
 
-.header__modal-cart:focus {
+.header__modal-cart:hover {
   display: block;
 }
+
+// .header__modal-cart:hover .header__link_cart {
+//   font-weight: 600;
+//   text-decoration-line: none;
+// }
 
 .top__title {
   font-weight: 600;
