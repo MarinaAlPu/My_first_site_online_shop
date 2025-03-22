@@ -283,13 +283,15 @@ input:focus {
       width: 290px;
       height: 41px;
       border-radius: 20px;
+      padding-top: 10px;
+      padding-bottom: 10px;
       border: 1px solid #040404;
       background: transparent;
       transition: transform 1s linear;
+      text-align: center;
 
       &_order {
         color: #000;
-        text-align: center;
         font-size: 16px;
         font-weight: 400;
       }
